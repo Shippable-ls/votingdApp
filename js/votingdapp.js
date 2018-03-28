@@ -148,3 +148,9 @@ $(document).ready(function() {
     Autocall()
   }
 });
+
+////////////////////////////
+
+$(window).load(function() {
+  $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+});
